@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <html>
+<html lang="en" dir="ltr">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Studio Ghibli Films: A Recommended List for Beginners</title>
         <link rel="stylesheet" href="style.css">
-          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    </head>
+        <link rel="stylesheet" type="text/css" href="file:///C:/Users/Rose%20Mary/Downloads/ghibli/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.css">
     </head>
     <body>
-        <div class="first">
-                <img src="images/logo.png" class="logo">
-            <div class="text-box">
-                <img src="images/ghibli 1.png">
-            </div>
-             <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">LIST</a></li>
-                </ul>
-            </div>
-            <div class="search-box">
-                <input class="search-txt" types="text" name="" placeholder= "type to search">
-                <a class="search.btm" href="#"><ion-icon name="search-circle-outline"></ion-icon></a>
-            </div>
-        </div>
+      <div class="wrapper">
+      <div class="logo">
+          <img src="images/logo.png" alt="logo">
+          </div>
+          <div class="name">
+            <img src="images/ghibli 1.png" alt="name">
+          </div>
+      </div>
+        <input type="checkbox" id="check">
+        <label for="check">  
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+      <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-house"></i>Home</a></li>
+            <li><a href="#"><i class="fas fa-list"></i>List of Anime</a></li>
+            <li><a href="#"><i class="fas fa-question"></i>About</a></li>
+            <li><a href="#"><i class="fas fa-phone"></i>Contact</a></li>
+        </ul>
+      </div> 
+      <div class="container">
+        <form action="https://hannahmaearchivido.github.io/Studio-Ghibli-List/" method="get" class="search-bar">
+          <input type="text" placeholder="Type to search..." name="q">
+          <button type="submit"><i class="fas fa-search"></i></button>
+      </div>
+ 
     </body>
 </html>
