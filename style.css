@@ -13,16 +13,22 @@
 .logo img{
     width: 150px;
     height: 150px;
+    top: 80px;
+    right: 15px;
     padding-left: 700px;
+    padding-top: 50px;
 }
 .name{
     width: 0px;
     height: 0px;
 }
 .name img{
-    width: 150px;
-    height: 150px;
-    padding-left: 810px;
+    width: 130px;
+    height: 120px;
+    top: 80px;
+    right: 15px;
+    padding-left: 815px;
+    padding-top: 65px;
     
 }
 .sidebar{
@@ -98,12 +104,12 @@ label #cancel{
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     padding: 5%;
     background-image: url(images/cover.png);
     background-position: center;
     background-size: cover;
-    justify-content: center;
+    background-attachment: fixed;
     padding-left: 150px;
     padding-top: 30px;
 }
@@ -130,10 +136,282 @@ label #cancel{
     width: 20px;
 }
 .search-bar button{
-   border: 0;
-   border-radius: 60%;
-   width: 20px;
-   height: 20px;
-   background: #3ca917;
-   cursor: pointer;
+    border: 0;
+    border-radius: 60%;
+    width: 20px;
+    height: 20px;
+    background: #3ca917;
+    cursor: pointer;
+}
+.title p{
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    height: 35%;
+    top: 15px;
+    justify-content: center;
+    padding-left: 470px;
+    padding-top: 20px;
+    font-size: 14.5px;
+    color: white;
+}
+.laputa img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 1100px;
+    padding-top: 170px;
+    overflow: hidden;
+}
+.descripla{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 1100px;
+    padding-top: 510px;
+    color: white;
+}
+.laputa:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.totoro img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 800px;
+    padding-top: 170px;
+    overflow: hidden;
+}
+.descripto{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 800px;
+    padding-top: 510px;
+    color: white;
+}
+.totoro:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.spirited img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 500px;
+    padding-top: 170px;
+    overflow: hidden;
+}
+.descripspi{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 500px;
+    padding-top: 510px;
+    color: white;
+}
+.spirited:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.whisper img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 200px;
+    padding-top: 170px;
+    overflow: hidden;
+}
+.descripwhi{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 200px;
+    padding-top: 510px;
+    color: white;
+}
+.whisper:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.kiki img{
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-left: 430px;
+    padding-top: 170px;
+    overflow: hidden;
+}
+.descripki{
+    position: absolute;
+    top: 82px;
+    left: 900px;
+    width: 16%;
+    height: 38%;
+    padding-left: 435px;
+    padding-top: 510px;
+    color: white;
+}
+.kiki:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.howl img{
+    position: absolute;
+    top: 300px;
+    right: 16px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 1100px;
+    padding-top: 455px;
+    overflow: hidden;
+}
+.descripho{
+    position: absolute;
+    top: 500px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 1100px;
+    padding-top: 600px;
+    color: white;
+}
+.howl:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.cat img{
+    position: absolute;
+    top: 300px;
+    right: 16px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 800px;
+    padding-top: 455px;
+    overflow: hidden;
+}
+.descripca{
+    position: absolute;
+    top: 500px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 800px;
+    padding-top: 600px;
+    color: white;
+}
+.cat:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.mononoke img{
+    position: absolute;
+    top: 300px;
+    right: 16px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 500px;
+    padding-top: 455px;
+    overflow: hidden;
+}
+.descripmo{
+    position: absolute;
+    top: 500px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 500px;
+    padding-top: 600px;
+    color: white;
+}
+.mononoke:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.wind img{
+    position: absolute;
+    top: 300px;
+    right: 16px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 200px;
+    padding-top: 455px;
+    overflow: hidden;
+}
+.descripwi{
+    position: absolute;
+    top: 500px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 200px;
+    padding-top: 600px;
+    color: white;
+}
+.wind:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.grave img{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-left: 430px;
+    padding-top: 455px;
+    overflow: hidden;
+}
+.descripgra{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    width: 16%;
+    height: 38%;
+    padding-left: 435px;
+    padding-top: 600px;
+    color: white;
+}
+.grave:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
 }
