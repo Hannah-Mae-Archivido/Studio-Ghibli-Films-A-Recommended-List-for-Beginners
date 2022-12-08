@@ -155,7 +155,7 @@ label #cancel{
     font-size: 14.5px;
     color: white;
 }
-.laputa img{
+.from img{
     position: absolute;
     top: 80px;
     right: 15px;
@@ -165,8 +165,21 @@ label #cancel{
     padding-right: 1100px;
     padding-top: 170px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
-.descripla{
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.descripfro{
     position: absolute;
     top: 82px;
     right: 16px;
@@ -175,8 +188,21 @@ label #cancel{
     padding-right: 1100px;
     padding-top: 510px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
-.laputa:hover img{
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.from:hover img{
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.75;
@@ -191,6 +217,19 @@ label #cancel{
     padding-right: 800px;
     padding-top: 170px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripto{
     position: absolute;
@@ -201,6 +240,19 @@ label #cancel{
     padding-right: 800px;
     padding-top: 510px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .totoro:hover img{
     transform: translateY(20px);
@@ -217,6 +269,19 @@ label #cancel{
     padding-right: 500px;
     padding-top: 170px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripspi{
     position: absolute;
@@ -227,6 +292,19 @@ label #cancel{
     padding-right: 500px;
     padding-top: 510px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .spirited:hover img{
     transform: translateY(20px);
@@ -243,6 +321,19 @@ label #cancel{
     padding-right: 200px;
     padding-top: 170px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripwhi{
     position: absolute;
@@ -253,6 +344,19 @@ label #cancel{
     padding-right: 200px;
     padding-top: 510px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .whisper:hover img{
     transform: translateY(20px);
@@ -269,6 +373,19 @@ label #cancel{
     padding-left: 430px;
     padding-top: 170px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripki{
     position: absolute;
@@ -279,6 +396,19 @@ label #cancel{
     padding-left: 435px;
     padding-top: 510px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .kiki:hover img{
     transform: translateY(20px);
@@ -295,6 +425,19 @@ label #cancel{
     padding-right: 1100px;
     padding-top: 455px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripho{
     position: absolute;
@@ -305,6 +448,19 @@ label #cancel{
     padding-right: 1100px;
     padding-top: 600px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .howl:hover img{
     transform: translateY(20px);
@@ -321,6 +477,19 @@ label #cancel{
     padding-right: 800px;
     padding-top: 455px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripca{
     position: absolute;
@@ -331,6 +500,19 @@ label #cancel{
     padding-right: 800px;
     padding-top: 600px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .cat:hover img{
     transform: translateY(20px);
@@ -347,6 +529,19 @@ label #cancel{
     padding-right: 500px;
     padding-top: 455px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripmo{
     position: absolute;
@@ -357,6 +552,19 @@ label #cancel{
     padding-right: 500px;
     padding-top: 600px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .mononoke:hover img{
     transform: translateY(20px);
@@ -373,6 +581,19 @@ label #cancel{
     padding-right: 200px;
     padding-top: 455px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripwi{
     position: absolute;
@@ -383,6 +604,19 @@ label #cancel{
     padding-right: 200px;
     padding-top: 600px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .wind:hover img{
     transform: translateY(20px);
@@ -399,6 +633,19 @@ label #cancel{
     padding-left: 430px;
     padding-top: 455px;
     overflow: hidden;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .descripgra{
     position: absolute;
@@ -409,6 +656,19 @@ label #cancel{
     padding-left: 435px;
     padding-top: 600px;
     color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 .grave:hover img{
     transform: translateY(20px);
