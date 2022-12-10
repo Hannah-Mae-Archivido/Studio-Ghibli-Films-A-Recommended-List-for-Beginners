@@ -1,0 +1,1879 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 0;
+    height: 0;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    top: 80px;
+    right: 15px;
+    padding-left: 610px;
+    padding-top: 50px;
+}
+.name{
+    width: 0px;
+    height: 0px;
+}
+.name img{
+    width: 130px;
+    height: 120px;
+    top: 80px;
+    right: 15px;
+    padding-left: 730px;
+    padding-top: 65px;
+    
+}
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 335px;
+    background: transparent;
+    transition: all .5s ease;
+}
+.sidebar header{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: transparent;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check {
+    display: none;
+}
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 2px;
+}
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 30px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+.container{
+    width: 85%;
+    height: 150vh;
+    padding: 5%;
+    background-image: url(images/cover.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.search-bar{
+    width: 100%;
+    max-width: 250px;
+    background: rgba(232, 235, 231, 0.706);
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 1px 20px;
+    font-size: 15px;
+    color: #141417;
+}
+::placeholder{
+    color: rgb(3, 3, 3);
+}
+.search-bar button i{
+    width: 20px;
+}
+.search-bar button{
+   border: 0;
+   border-radius: 60%;
+   width: 20px;
+   height: 20px;
+   background: #3ca917;
+   cursor: pointer;
+}
+.headtitle{
+    position: absolute;
+    width: 100%;
+    top: 35px;
+    left: 15px;
+    color: white;
+    font-family: lucida;
+    font-size: 15px;
+    font-style: bold;
+    padding-left: 340px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+  
+/* Add Animation */
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
+}
+  
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+#from img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 1100px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+#from p{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 1150px;
+    padding-top: 510px;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+#from:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+.container2{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.container2 img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title1 p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 380px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title2 p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 280px;
+    padding-top: 140px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.descrip p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 280px;
+    padding-top: 280px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directed p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 90px;
+    left: 350px;
+    padding-left: 400px;
+    padding-top: 420px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailer{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 590px;
+    left: 760px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#review{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #688171;
+}
+.box3{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #0065CF;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitle{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.description{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 920px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+}
+.main{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.umi img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.umi:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.umi p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 460px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.shun img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.shun:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.shun p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 675px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.shiro img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.shiro:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.shiro p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 435px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.yuichiro img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.yuichiro:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.yuichiro p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 640px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+#totoro img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 780px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+#totoro p{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 840px;
+    padding-top: 510px;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.containerto{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.containerto img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1to{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2to{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.titleto p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 320px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.titlero p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 220px;
+    padding-top: 140px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#totoro:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.descripto p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 230px;
+    padding-top: 280px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directedto p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 90px;
+    left: 350px;
+    padding-left: 350px;
+    padding-top: 380px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailerto{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 580px;
+    left: 720px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#reviewto{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #688171;
+}
+.box3to{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #F8E9A7;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitleto{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.descriptionto{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 920px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 19px;
+    color: white;
+    font-style: bold;
+}
+.mainto{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.satsuki img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.satsuki:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.satsuki p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 425px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.mei img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.mei:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.mei p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 690px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.kanta img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.kanta:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.kanta p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 435px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.tatsuo img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.tatsuo:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.tatsuo p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 660px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+#spirited img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 460px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+#spirited p{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 545px;
+    padding-top: 510px;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+#spirited:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.containerspi{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.containerspi img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1spi{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2spi{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.titlespi p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 320px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 90px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.descripspi p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 225px;
+    padding-top: 210px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directedspi p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 90px;
+    left: 350px;
+    padding-left: 340px;
+    padding-top: 340px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailerspi{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 540px;
+    left: 720px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#reviewspi{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #478F4D;
+}
+.box3spi{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #0A507E;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitlespi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.descriptionspi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 920px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+}
+.mainspi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.chihiro img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.chihiro:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.chihiro p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.haku img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.haku:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.haku p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 675px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.kaonashi img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.kaonashi:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.kaonashi p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 410px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.zeniba img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.zeniba:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.zeniba p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 660px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+    font-style: bold;
+}
+#whisper img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 140px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+#whisper p{
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: 16%;
+    height: 38%;
+    padding-right: 200px;
+    padding-top: 510px;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+#whisper:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.containerwhi{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.containerwhi img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1whi{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2whi{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.titlewhi1 p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 350px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.titlewhi2 p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 255px;
+    padding-top: 140px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.descripwhi p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 260px;
+    padding-top: 280px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directedwhi p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 90px;
+    left: 350px;
+    padding-left: 360px;
+    padding-top: 410px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailerwhi{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 580px;
+    left: 735px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#reviewwhi{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #15452A;
+}
+.box3whi{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #A25B2B;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitlewhi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.descriptionwhi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 880px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 14px;
+    color: white;
+    font-style: bold;
+}
+.mainwhi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.shizuku img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.shizuku:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.shizuku p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.seiji img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.seiji:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.seiji p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 675px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.yuko img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.yuko:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.yuko p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 445px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.shirou img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.shirou:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.shirou p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 675px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
