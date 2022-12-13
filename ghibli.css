@@ -3014,13 +3014,13 @@ cursor: pointer;
     position: absolute;
     width: 50%;
     height: 18%;
-    top: 60px;
+    top: 20px;
     right: 350px;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
     font-family: lucida;
-    font-size: 19px;
+    font-size: 14px;
     color: white;
     font-style: bold;
 }
@@ -3090,7 +3090,7 @@ cursor: pointer;
     color: black;
     font-style: bold;
 }
-.Ursula img{
+.lady img{
     position: absolute;
     width: 12%;
     height: 9%;
@@ -3099,12 +3099,12 @@ cursor: pointer;
     padding-left: 420px;
     padding-top: 450px;
 }
-.Ursula:hover img{
+.lady:hover img{
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.75;
 }
-.Ursula p{
+.lady p{
     position: absolute;
     width: 12%;
     height: 20%;
@@ -3117,7 +3117,7 @@ cursor: pointer;
     color: black;
     font-style: bold;
 }
-.Jiji img{
+.moro img{
     position: absolute;
     width: 12%;
     height: 9%;
@@ -3126,12 +3126,12 @@ cursor: pointer;
     padding-left: 650px;
     padding-top: 450px;
 }
-.Jiji:hover img{
+.moro:hover img{
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.75;
 }
-.Jiji p{
+.moro p{
     position: absolute;
     width: 14%;
     height: 20%;
@@ -3319,7 +3319,7 @@ cursor: pointer;
     padding-top: 280px;
     text-align: justify;
     font-family: lucida;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
     font-style: bold;
     -webkit-animation-name: zoom;
@@ -3340,7 +3340,7 @@ cursor: pointer;
     position: absolute;
     width: 50%;
     height: 18%;
-    top: 90px;
+    top: 140px;
     left: 350px;
     padding-left: 350px;
     padding-top: 380px;
@@ -3405,12 +3405,12 @@ cursor: pointer;
     width: 5%;
     height: 1%;
     background: #F8E9A7;
-    top: 753px;
+    top: 718px;
     left: 720px;
     padding-left: 423px;
-    padding-top: 760px;
+    padding-top: 720px;
 }
-.movietitlewind{
+.movietitlewind p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -3426,13 +3426,13 @@ cursor: pointer;
     position: absolute;
     width: 50%;
     height: 18%;
-    top: 60px;
+    top: 10px;
     right: 350px;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
     font-family: lucida;
-    font-size: 19px;
+    font-size: 12px;
     color: white;
     font-style: bold;
 }
@@ -3448,7 +3448,7 @@ cursor: pointer;
     color: black;
     font-style: bold;
 }
-.kiki img{
+.jiro img{
     position: absolute;
     width: 12%;
     height: 9%;
@@ -3457,12 +3457,12 @@ cursor: pointer;
     padding-left: 420px;
     padding-top: 190px;
 }
-.kiki:hover img{
+.jiro:hover img{
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.75;
 }
-.kiki p{
+.jiro p{
     position: absolute;
     width: 12%;
     height: 20%;
@@ -3475,7 +3475,7 @@ cursor: pointer;
     color: black;
     font-style: bold;
 }
-.tombo img{
+.nahoko img{
     position: absolute;
     width: 12%;
     height: 9%;
@@ -3484,12 +3484,12 @@ cursor: pointer;
     padding-left: 650px;
     padding-top: 190px;
 }
-.tombo:hover img{
+.nahoko:hover img{
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.75;
 }
-.tombo p{
+.nahoko p{
     position: absolute;
     width: 12%;
     height: 20%;
@@ -3502,7 +3502,7 @@ cursor: pointer;
     color: black;
     font-style: bold;
 }
-.Ursula img{
+.giovanni img{
     position: absolute;
     width: 12%;
     height: 9%;
@@ -3511,25 +3511,25 @@ cursor: pointer;
     padding-left: 420px;
     padding-top: 450px;
 }
-.Ursula:hover img{
+.giovanni:hover img{
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.75;
 }
-.Ursula p{
+.giovanni p{
     position: absolute;
-    width: 12%;
+    width: 13%;
     height: 20%;
     top: 778px;
-    left: 350px;
+    left: 325px;
     padding-left: 435px;
     padding-top: 600px;
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     font-style: bold;
 }
-.Jiji img{
+.kayo img{
     position: absolute;
     width: 12%;
     height: 9%;
@@ -3538,12 +3538,12 @@ cursor: pointer;
     padding-left: 650px;
     padding-top: 450px;
 }
-.Jiji:hover img{
+.kayo:hover img{
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.75;
 }
-.Jiji p{
+.kayo p{
     position: absolute;
     width: 14%;
     height: 20%;
