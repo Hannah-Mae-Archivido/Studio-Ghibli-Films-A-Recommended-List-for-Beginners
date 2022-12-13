@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="icon" type="images/x-icon" href="images/logo.png">
+        <title>Studio Ghibli Films: A Recommended List for Beginners</title>
+        <link rel="stylesheet" href="ghibli.css">
+        <script src="https://kit.fontawesome.com/63529f02ad.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 0;
+    height: 0;
+}
+.logo img{
+    width: 200px;
+    height: 250px;
+    top: 150px;
+    right: 15px;
+    padding-left: 150px;
+    padding-top: 300px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
+}
+  
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+.name{
+    width: 0px;
+    height: 0px;
+}
+.name img{
+    width: 200px;
+    height: 200px;
+    top: 80px;
+    right: 15px;
+    padding-left: 300px;
+    padding-top: 310px; 
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
+}
+  
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 335px;
+    background: transparent;
+    transition: all .5s ease;
+}
+.sidebar header{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: transparent;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check {
+    display: none;
+}
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 2px;
+}
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 30px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+.container{
+    width: 93%;
+    height: 100vh;
+    padding: 5%;
+    background-image: url(images/cover.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.search-bar{
+    width: 100%;
+    max-width: 250px;
+    background: rgba(232, 235, 231, 0.706);
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 1px 20px;
+    font-size: 15px;
+    color: #141417;
+}
+::placeholder{
+    color: rgb(3, 3, 3);
+}
+.search-bar button i{
+    width: 20px;
+}
+.search-bar button{
+   border: 0;
+   border-radius: 60%;
+   width: 20px;
+   height: 20px;
+   background: #3ca917;
+   cursor: pointer;
+}
+.descrip p{
+    font-size: 20px;
+    text-align: justify;
+}
+        </style>
+    </head>
+    <body>
+      <div class="wrapper">
+      <div class="logo">
+          <img src="images/logo.png" alt="logo">
+          </div>
+          <div class="name">
+            <img src="images/ghibli 1.png" alt="name">
+          </div>
+      </div>
+        <input type="checkbox" id="check">
+        <label for="check">  
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+      <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li><a href="home.html"><i class="fas fa-house"></i>Home</a></li>
+            <li><a href="index.html"><i class="fas fa-list"></i>List of Films</a></li>
+            <li><a href="about.html"><i class="fas fa-question"></i>About</a></li>
+        </ul>
+      </div> 
+      <div class="container">
+          <input type="text" placeholder="Type to search..." name="q">
+          <button type="submit"><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="descrip">
+        <p>Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi)[1] is a Japanese animation studio headquartered in Koganei, Tokyo.[2] It is best known for its animated feature films, and has also produced several short subjects, television commercials, and two television films. Its mascot and most recognizable 
+            símbolo
+             is 
+            un personaje
+             named Totoro, a giant spirit inspired by raccoon dogs (tanuki) and cats[3] from the 1988 anime film My Neighbor Totoro. Among the studio's highest-grossing films are Spirited Away (2001), Howl's Moving 
+            Castillo
+             (2004) and Ponyo (2008).[4] The studio was founded on June 15, 1985, by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after the successful 
+            actuación
+             of Topcraft's Nausicaä of the Valley of the Wind (1984). It has also collaborated with 
+            videojuego
+             studios on the visual development of several games.</p>
+      </div>
+
+    </body>
+</html>
