@@ -480,19 +480,19 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #688171;
+    background: #945E3E;
 }
 .box3{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #0065CF;
+    background: #D6BA86;
     top: 753px;
     left: 720px;
     padding-left: 423px;
     padding-top: 760px;
 }
-.movietitle{
+.movietitle p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -504,21 +504,20 @@ cursor: pointer;
     color: white;
     font-style: bold;
 }
-.description{
+.description p{
     position: absolute;
     width: 50%;
     height: 18%;
-    top: 60px;
+    top: 30px;
     right: 350px;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
-    font-family: lucida;
     font-size: 18px;
     color: white;
     font-style: bold;
 }
-.main{
+.main p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -526,7 +525,7 @@ cursor: pointer;
     left: 350px;
     padding-left: 430px;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-style: bold;
 }
@@ -902,19 +901,19 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #688171;
+    background: #4C2F2E;
 }
 .box3to{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #F8E9A7;
+    background:#D8CDBC;
     top: 753px;
     left: 720px;
     padding-left: 423px;
     padding-top: 760px;
 }
-.movietitleto{
+.movietitleto p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -926,7 +925,7 @@ cursor: pointer;
     color: white;
     font-style: bold;
 }
-.descriptionto{
+.descriptionto p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -935,12 +934,11 @@ cursor: pointer;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
-    font-family: lucida;
     font-size: 19px;
     color: white;
     font-style: bold;
 }
-.mainto{
+.mainto p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -948,7 +946,7 @@ cursor: pointer;
     left: 350px;
     padding-left: 430px;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-style: bold;
 }
@@ -1219,7 +1217,7 @@ cursor: pointer;
     padding-top: 210px;
     text-align: justify;
     font-family: lucida;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     font-style: bold;
     -webkit-animation-name: zoom;
@@ -1298,19 +1296,19 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #478F4D;
+    background:#384E4E;
 }
 .box3spi{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #0A507E;
+    background: #78A6B5;
     top: 753px;
     left: 720px;
     padding-left: 423px;
     padding-top: 760px;
 }
-.movietitlespi{
+.movietitlespi p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -1322,7 +1320,7 @@ cursor: pointer;
     color: white;
     font-style: bold;
 }
-.descriptionspi{
+.descriptionspi p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -1331,12 +1329,11 @@ cursor: pointer;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
-    font-family: lucida;
     font-size: 18px;
     color: white;
     font-style: bold;
 }
-.mainspi{
+.mainspi p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -1344,7 +1341,7 @@ cursor: pointer;
     left: 350px;
     padding-left: 430px;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-style: bold;
 }
@@ -1719,19 +1716,19 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #15452A;
+    background: #9E4F21;
 }
 .box3whi{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #A25B2B;
+    background: #A09D5F;
     top: 753px;
     left: 720px;
     padding-left: 423px;
     padding-top: 760px;
 }
-.movietitlewhi{
+.movietitlewhi p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -2025,7 +2022,7 @@ cursor: pointer;
     padding-left: 320px;
     padding-top: 85px;
     font-family: fantasy;
-    font-size: 100px;
+    font-size: 90px;
     color: white;
     font-style: bold;
     -webkit-animation-name: zoom;
@@ -2162,19 +2159,19 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #688171;
+    background: #578058;
 }
 .box3Ki{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #F8E9A7;
+    background: #EFC68A;
     top: 753px;
     left: 720px;
     padding-left: 423px;
     padding-top: 760px;
 }
-.movietitleKi{
+.movietitleKi p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -2186,21 +2183,20 @@ cursor: pointer;
     color: white;
     font-style: bold;
 }
-.descriptionKi{
+.descriptionKi p{
     position: absolute;
     width: 50%;
     height: 18%;
-    top: 60px;
+    top: 30px;
     right: 350px;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
-    font-family: lucida;
     font-size: 19px;
     color: white;
     font-style: bold;
 }
-.mainKi{
+.mainKi p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -2208,7 +2204,7 @@ cursor: pointer;
     left: 350px;
     padding-left: 430px;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-style: bold;
 }
@@ -2231,7 +2227,7 @@ cursor: pointer;
     width: 12%;
     height: 20%;
     top: 778px;
-    left: 350px;
+    left: 380px;
     padding-left: 425px;
     padding-top: 340px;
     font-family: fantasy;
@@ -2258,7 +2254,7 @@ cursor: pointer;
     width: 12%;
     height: 20%;
     top: 778px;
-    left: 350px;
+    left: 325px;
     padding-left: 690px;
     padding-top: 340px;
     font-family: fantasy;
@@ -2285,7 +2281,7 @@ cursor: pointer;
     width: 12%;
     height: 20%;
     top: 778px;
-    left: 350px;
+    left: 335px;
     padding-left: 435px;
     padding-top: 600px;
     font-family: fantasy;
@@ -2312,7 +2308,7 @@ cursor: pointer;
     width: 14%;
     height: 20%;
     top: 778px; 
-    left: 350px;
+    left: 380px;
     padding-left: 660px;
     padding-top: 600px;
     font-family: fantasy;
@@ -2574,13 +2570,13 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #688171;
+    background:#98483A;
 }
 .box3how{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #F8E9A7;
+    background: #534F58;
     top: 753px;
     left: 720px;
     padding-left: 423px;
@@ -2602,7 +2598,7 @@ cursor: pointer;
     position: absolute;
     width: 50%;
     height: 18%;
-    top: 60px;
+    top: 20px;
     right: 350px;
     padding-right: 200px;
     padding-top: 920px;
@@ -2620,7 +2616,7 @@ cursor: pointer;
     left: 350px;
     padding-left: 430px;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-style: bold;
 }
@@ -2643,11 +2639,11 @@ cursor: pointer;
     width: 12%;
     height: 20%;
     top: 778px;
-    left: 350px;
+    left: 368px;
     padding-left: 425px;
     padding-top: 340px;
     font-family: fantasy;
-    font-size: 22px;
+    font-size: 25px;
     color: black;
     font-style: bold;
 }
@@ -2671,7 +2667,7 @@ cursor: pointer;
     height: 20%;
     top: 778px;
     left: 350px;
-    padding-left: 690px;
+    padding-left: 650px;
     padding-top: 340px;
     font-family: fantasy;
     font-size: 25px;
@@ -2725,7 +2721,7 @@ cursor: pointer;
     height: 20%;
     top: 778px; 
     left: 350px;
-    padding-left: 660px;
+    padding-left: 645px;
     padding-top: 600px;
     font-family: fantasy;
     font-size: 22px;
@@ -2849,7 +2845,7 @@ cursor: pointer;
     padding-left: 320px;
     padding-top: 85px;
     font-family: fantasy;
-    font-size: 85px;
+    font-size: 105px;
     color: white;
     font-style: bold;
     -webkit-animation-name: zoom;
@@ -2986,13 +2982,13 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #688171;
+    background: #7E885A;
 }
 .box3mononoke{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #F8E9A7;
+    background: #E1E3E3;
     top: 753px;
     left: 720px;
     padding-left: 423px;
@@ -3019,12 +3015,12 @@ cursor: pointer;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
-    font-family: lucida;
-    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12.5px;
     color: white;
     font-style: bold;
 }
-.mainmononoke{
+.mainmononoke p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -3032,7 +3028,7 @@ cursor: pointer;
     left: 350px;
     padding-left: 430px;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-style: bold;
 }
@@ -3052,14 +3048,14 @@ cursor: pointer;
 }
 .mononoke p{
     position: absolute;
-    width: 12%;
+    width: 16%;
     height: 20%;
     top: 778px;
     left: 350px;
-    padding-left: 425px;
+    padding-left: 420px;
     padding-top: 340px;
     font-family: fantasy;
-    font-size: 22px;
+    font-size: 19px;
     color: black;
     font-style: bold;
 }
@@ -3079,14 +3075,14 @@ cursor: pointer;
 }
 .ashitaka p{
     position: absolute;
-    width: 12%;
+    width: 16%;
     height: 20%;
     top: 778px;
     left: 350px;
-    padding-left: 690px;
+    padding-left: 650px;
     padding-top: 340px;
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     font-style: bold;
 }
@@ -3113,7 +3109,7 @@ cursor: pointer;
     padding-left: 435px;
     padding-top: 600px;
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     font-style: bold;
 }
@@ -3137,7 +3133,7 @@ cursor: pointer;
     height: 20%;
     top: 778px; 
     left: 350px;
-    padding-left: 660px;
+    padding-left: 680px;
     padding-top: 600px;
     font-family: fantasy;
     font-size: 22px;
@@ -3254,40 +3250,14 @@ cursor: pointer;
 }
 .title1wind p{
     position: absolute;
-    width: 50%;
+    width: 70%;
     height: 18%;
-    top: 20px;
+    top: 25px;
     left: 250px;
     padding-left: 320px;
     padding-top: 85px;
     font-family: fantasy;
-    font-size: 85px;
-    color: white;
-    font-style: bold;
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-.title2wind p{
-    position: absolute;
-    width: 50%;
-    height: 18%;
-    top: 60px;
-    left: 350px;
-    padding-left: 220px;
-    padding-top: 140px;
-    font-family: fantasy;
-    font-size: 85px;
+    font-size: 93px;
     color: white;
     font-style: bold;
     -webkit-animation-name: zoom;
@@ -3313,13 +3283,12 @@ cursor: pointer;
     position: absolute;
     width: 50%;
     height: 18%;
-    top: 60px;
+    top: 280px;
     left: 350px;
     padding-left: 230px;
-    padding-top: 280px;
     text-align: justify;
     font-family: lucida;
-    font-size: 13px;
+    font-size: 14px;
     color: white;
     font-style: bold;
     -webkit-animation-name: zoom;
@@ -3398,17 +3367,17 @@ cursor: pointer;
     width: 60%;
     height: 80vh;
     padding: 70px 0;
-    background: #688171;
+    background: #211F19;
 }
 .box3wind{
     position: absolute;
     width: 5%;
     height: 1%;
-    background: #F8E9A7;
-    top: 718px;
+    background: #E7BA91;
+    top: 755px;
     left: 720px;
     padding-left: 423px;
-    padding-top: 720px;
+    padding-top: 758px;
 }
 .movietitlewind p{
     position: absolute;
@@ -3422,7 +3391,7 @@ cursor: pointer;
     color: white;
     font-style: bold;
 }
-.descriptionwind{
+.descriptionwind p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -3431,12 +3400,11 @@ cursor: pointer;
     padding-right: 200px;
     padding-top: 920px;
     text-align: justify;
-    font-family: lucida;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     font-style: bold;
 }
-.mainwind{
+.mainwind p{
     position: absolute;
     width: 50%;
     height: 18%;
@@ -3444,7 +3412,7 @@ cursor: pointer;
     left: 350px;
     padding-left: 430px;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-style: bold;
 }
@@ -3467,7 +3435,7 @@ cursor: pointer;
     width: 12%;
     height: 20%;
     top: 778px;
-    left: 350px;
+    left: 380px;
     padding-left: 425px;
     padding-top: 340px;
     font-family: fantasy;
@@ -3495,10 +3463,10 @@ cursor: pointer;
     height: 20%;
     top: 778px;
     left: 350px;
-    padding-left: 690px;
+    padding-left: 660px;
     padding-top: 340px;
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     font-style: bold;
 }
@@ -3522,7 +3490,7 @@ cursor: pointer;
     height: 20%;
     top: 778px;
     left: 325px;
-    padding-left: 435px;
+    padding-left: 440px;
     padding-top: 600px;
     font-family: fantasy;
     font-size: 20px;
@@ -3548,7 +3516,7 @@ cursor: pointer;
     width: 14%;
     height: 20%;
     top: 778px; 
-    left: 350px;
+    left: 375px;
     padding-left: 660px;
     padding-top: 600px;
     font-family: fantasy;
