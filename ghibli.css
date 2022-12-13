@@ -103,7 +103,7 @@ label #cancel{
     left: 195px;
 }
 .container{
-    width: 85%;
+    width: 100%;
     height: 150vh;
     padding: 5%;
     background-image: url(images/cover.png);
@@ -1871,6 +1871,1685 @@ cursor: pointer;
     top: 778px;
     left: 350px;
     padding-left: 675px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+#totoro img{
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 780px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+#kiki img{
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    overflow: hidden;
+    background: black;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+#kiki p{
+    position: absolute;
+    top: 1035px;
+    left: 110px;
+    width: 16%;
+    height: 38%;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.containerKi{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.containerKi img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1Ki{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2Ki{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title1Ki p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 320px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title2Ki p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 220px;
+    padding-top: 140px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#Kiki:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.descripKi p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 230px;
+    padding-top: 280px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directedKi p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 90px;
+    left: 350px;
+    padding-left: 350px;
+    padding-top: 380px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailerKi{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 580px;
+    left: 720px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#reviewKi{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #688171;
+}
+.box3Ki{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #F8E9A7;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitleKi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.descriptionKi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 920px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 19px;
+    color: white;
+    font-style: bold;
+}
+.mainKi{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.kiki img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.kiki:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.kiki p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 425px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.tombo img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.tombo:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.tombo p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 690px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.Ursula img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.Ursula:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.Ursula p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 435px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.Jiji img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.Jiji:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.Jiji p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px; 
+    left: 350px;
+    padding-left: 660px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+#how img{
+    position: absolute;
+    top: 528px;
+    left: 460px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 780px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+#how p{
+    position: absolute;
+    top: 1035px;
+    left: 430px;
+    width: 16%;
+    height: 38%;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.containerhow{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.containerhow img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1how{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2how{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title1how p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 320px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title2how p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 220px;
+    padding-top: 140px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#how:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.descriphow p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 230px;
+    padding-top: 280px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 16px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directedhow p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 92px;
+    left: 350px;
+    padding-left: 350px;
+    padding-top: 380px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailerhow{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 580px;
+    left: 720px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#reviewhow{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #688171;
+}
+.box3how{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #F8E9A7;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitlehow p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.descriptionhow{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 920px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+}
+.mainhow p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.howl img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.howl:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.howl p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 425px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.sophie img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.sophie:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.sophie p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 690px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.marki img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.marki:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.marki p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 435px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.calcifer img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.calcifer:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.calcifer p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px; 
+    left: 350px;
+    padding-left: 660px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+#mononoke img{
+    position: absolute;
+    top: 528px;
+    left: 780px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 780px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+#mononoke p{
+    position: absolute;
+    top: 1035px;
+    left: 740px;
+    width: 16%;
+    height: 38%;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.containermononoke{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.containermononoke img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1mononoke{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2mononoke{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title1mononoke p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 320px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title2mononoke p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 220px;
+    padding-top: 140px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#mononoke:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.descripmononoke p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 230px;
+    padding-top: 280px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directedmononoke p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 90px;
+    left: 350px;
+    padding-left: 350px;
+    padding-top: 380px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailermononoke{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 580px;
+    left: 720px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#reviewmononoke{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #688171;
+}
+.box3mononoke{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #F8E9A7;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitlemononoke p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.descriptionmononoke p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 920px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 19px;
+    color: white;
+    font-style: bold;
+}
+.mainmononoke{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.mononoke img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.mononoke:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.mononoke p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 425px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.ashitaka img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.ashitaka:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.ashitaka p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 690px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.Ursula img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.Ursula:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.Ursula p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 435px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.Jiji img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.Jiji:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.Jiji p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px; 
+    left: 350px;
+    padding-left: 660px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+#wind img{
+    position: absolute;
+    top: 528px;
+    left: 1110px;
+    width: 17%;
+    height: 43%;
+    justify-content: left;
+    padding-right: 780px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: transparent;
+    border-color: transparent;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+#wind p{
+    position: absolute;
+    top: 1033px;
+    left: 1055px;
+    width: 16%;
+    height: 38%;
+    font-size: 15px;
+    color: white;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.containerwind{
+    width: 53.5%;
+    height: 80vh;
+    padding: 5%;
+    background-image: url(images/cover1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 500px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.containerwind img{
+    position: absolute;
+    width: 66%;
+    height: 40%;
+    top: 80px;
+    right: 15px;
+    justify-content: left;
+    padding-right: 390px;
+}
+.box1wind{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.6;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.box2wind{
+    position: absolute;
+    width: 0%;
+    height: 40%;
+    background: #1F4339;
+    top: 80px;
+    right: 350px;
+    padding-right: 350px;
+    opacity: 0.8;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title1wind p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 20px;
+    left: 250px;
+    padding-left: 320px;
+    padding-top: 85px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.title2wind p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 220px;
+    padding-top: 140px;
+    font-family: fantasy;
+    font-size: 85px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#wind:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.descripwind p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    left: 350px;
+    padding-left: 230px;
+    padding-top: 280px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.directedwind p{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 90px;
+    left: 350px;
+    padding-left: 350px;
+    padding-top: 380px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 18px;
+    color: white;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.trailerwind{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top: 580px;
+    left: 720px;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: lucida;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#reviewwind{
+    width: 60%;
+    height: 80vh;
+    padding: 70px 0;
+    background: #688171;
+}
+.box3wind{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    background: #F8E9A7;
+    top: 753px;
+    left: 720px;
+    padding-left: 423px;
+    padding-top: 760px;
+}
+.movietitlewind{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    right: 350px;
+    padding-right: 180px;
+    font-family: lucida;
+    font-size: 35px;
+    color: white;
+    font-style: bold;
+}
+.descriptionwind{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 60px;
+    right: 350px;
+    padding-right: 200px;
+    padding-top: 920px;
+    text-align: justify;
+    font-family: lucida;
+    font-size: 19px;
+    color: white;
+    font-style: bold;
+}
+.mainwind{
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    top: 800px;
+    left: 350px;
+    padding-left: 430px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+    font-style: bold;
+}
+.kiki img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 190px;
+}
+.kiki:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.kiki p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 425px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: black;
+    font-style: bold;
+}
+.tombo img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 190px;
+}
+.tombo:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.tombo p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 690px;
+    padding-top: 340px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.Ursula img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 420px;
+    padding-top: 450px;
+}
+.Ursula:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.Ursula p{
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    top: 778px;
+    left: 350px;
+    padding-left: 435px;
+    padding-top: 600px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+.Jiji img{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 778px;
+    left: 350px;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+.Jiji:hover img{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.75;
+}
+.Jiji p{
+    position: absolute;
+    width: 14%;
+    height: 20%;
+    top: 778px; 
+    left: 350px;
+    padding-left: 660px;
     padding-top: 600px;
     font-family: fantasy;
     font-size: 22px;
